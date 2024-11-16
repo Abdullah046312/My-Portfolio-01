@@ -1,0 +1,266 @@
+#seventh{
+    background-color: #021526;
+    padding: 80px 0px;
+   
+    
+}
+
+.fourteen{
+    text-align: center;
+}
+
+.fourteen h4{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #83B4FF;
+}
+.fourteen h2{
+    font-size: 62px;
+    font-weight: 800;
+    font-family: "Faculty Glyphic", sans-serif;
+    background: linear-gradient(90deg, #4F1787, yellow, #1E2A78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 60px;
+}
+.fiveteen_one{
+    background-color: #021526;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px #FFFF; 
+}
+.fiveteen_one img{
+    width: 50%;
+    box-shadow: 0px 0px 10px #FFFF; 
+    
+}
+.fiveteen_one h4{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    color: #A0DEFF;
+}
+.fiveteen_one h2{
+    font-size: 36px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    color: #A0DEFF;
+}
+.fiveteen_one p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    margin-top: 20px;
+    color: #A0DEFF;
+}
+.fiveteen_one h5{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    
+    color: #A0DEFF;
+}
+.fiveteen_one h6{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    color: #A0DEFF;
+}
+.fiveteen_one h3{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #A0DEFF;
+}
+
+.fiveteen_main{
+    display: flex;
+    gap: 20px;
+   
+
+}
+.fiveteen_main_inner{
+    background-color: #021526;
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #FFFF; 
+    
+}
+.fiveteen_two h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #CAF4FF;
+}
+.fiveteen_two input{
+   height: 50px;
+   width: 320px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #CAF4FF;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 10px;
+    background-color: #0C4271;
+}
+.fiveteen_three {
+    margin-top: 20px;
+}
+.fiveteen_three h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #CAF4FF;
+}
+.fiveteen_three input{
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #CAF4FF;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 10px;
+    background-color: #0C4271;
+}
+
+.fiveteen_four{
+    margin-top: 20px;
+}
+.fiveteen_four h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #CAF4FF;
+}
+.fiveteen_four input{
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #CAF4FF;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 10px;
+    background-color: #0C4271;
+    
+}
+.fiveteen_five{
+    margin-top: 40PX;
+}
+
+.fiveteen_five button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFF;
+    border-radius: 10px;
+    border: none;
+    background-color: #0c427156;
+}
+.fiveteen_five button:hover{
+    background: linear-gradient(to right, #021526, #5AB2FF, #021526); 
+    box-shadow: 0px 0px 10px #FFFF; 
+}
+
+
+.fiveteen_main input:focus {
+    outline: none;  /* Removes the default focus outline (click box) */
+  }
+  
+.fiveteen_three input:focus {
+    outline: none;  /* Removes the default focus outline (click box) */
+  }
+  
+.fiveteen_four input:focus {
+    outline: none;  /* Removes the default focus outline (click box) */
+  }
+  
+
+  
+ 
+  @media screen and (max-width: 375px) {
+    /* Adjusting font sizes */
+    .fourteen h2 {
+        font-size: 40px;
+    }
+
+    .fourteen h4 {
+        font-size: 24px;
+    }
+
+    .fiveteen_one h4 {
+        font-size: 24px;
+    }
+
+    .fiveteen_one h2 {
+        font-size: 28px;
+    }
+
+    .fiveteen_one p {
+        font-size: 14px;
+    }
+
+    .fiveteen_one h5 {
+        font-size: 16px;
+    }
+
+    .fiveteen_one h6 {
+        font-size: 16px;
+    }
+
+    .fiveteen_one h3 {
+        font-size: 14px;
+    }
+
+    /* Adjusting the image size */
+    .fiveteen_one img {
+        width: 70%;
+    }
+
+    /* Adjusting input fields */
+    .fiveteen_two input,
+    .fiveteen_three input,
+    .fiveteen_four input {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    /* Adjusting button */
+    .fiveteen_five button {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Adjusting main container padding */
+    #seventh {
+        padding: 60px 0px;
+    }
+
+    .fiveteen_main {
+        flex-direction: column; /* Stack inputs vertically */
+        gap: 10px;
+    }
+
+    .fiveteen_main_inner {
+        padding: 20px 20px;
+    }
+
+    /* Adjusting padding for individual input containers */
+    .fiveteen_two,
+    .fiveteen_three,
+    .fiveteen_four {
+        margin-top: 10px;
+    }
+}

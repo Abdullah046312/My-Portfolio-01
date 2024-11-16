@@ -1,0 +1,8 @@
+/* If an element is overflowing its container */
+
+  body {
+    overflow-y: scroll; /* Ensures vertical scrollbars appear */
+    
+    
+  }
+  
