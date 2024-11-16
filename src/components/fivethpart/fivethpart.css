@@ -1,13 +1,14 @@
-#fiveth {
+#fiveth{
     background-color: #021526;
     padding: 50px 0px;
 }
-
 .ten {
     text-align: center;
 }
 
-.ten h2 {
+
+
+.ten h2{
     font-size: 48px;
     font-weight: 800;
     font-family: "Faculty Glyphic", sans-serif;
@@ -17,157 +18,46 @@
     background-clip: text;
 }
 
-.ten p {
+
+
+.ten p{
     font-size: 18px;
     font-weight: 400;
     font-family: "Paprika", system-ui;
     color: #7695FF;
     margin-top: 10px;
 }
-
-/* .eleven_one section */
-.eleven_one {
+.eleven_one{
     background-color: #021526;
     padding: 40px 20px;
     text-align: center;
     margin-top: 60px;
     box-shadow: 0px 0px 12px #FFFF;
 }
-
-.eleven_one:hover {
-    background-color: #03346E;
+.eleven_one:hover{
+   background-color: #03346E;
+  
 }
-
-.eleven_one h2 {
+.eleven_one h2{
     font-size: 36px;
     font-weight: 800;
     font-family: "Open Sans", sans-serif;
     color: #F5F5F5;
     margin-top: 20px;
 }
-
-.eleven_one img {
+.eleven_one img{
     width: 60%;
 }
-
-.eleven_two {
+.eleven_two{
     text-align: center;
     margin-top: 20px;
 }
 
-.eleven_two h4 {
+.eleven_two h4{
     font-size: 24px;
     font-weight: 800;
     font-family: "Open Sans", sans-serif;
     color: #D1E9F6;
+    
 }
 
-/* Media Queries for Responsiveness */
-
-/* Mobile (Small devices: 375px and above) */
-@media screen and (max-width: 375px) {
-    .ten h2 {
-        font-size: 28px;
-    }
-
-    .ten p {
-        font-size: 14px;
-    }
-
-    .eleven_one h2 {
-        font-size: 28px;
-    }
-
-    .eleven_two h4 {
-        font-size: 18px;
-    }
-
-    .eleven_one img {
-        width: 80%;
-    }
-
-    .eleven_one {
-        padding: 30px 15px;
-    }
-}
-
-/* Tablet (Medium devices: 600px and above) */
-@media screen and (max-width: 600px) {
-    .ten h2 {
-        font-size: 40px;
-    }
-
-    .ten p {
-        font-size: 16px;
-    }
-
-    .eleven_one h2 {
-        font-size: 32px;
-    }
-
-    .eleven_two h4 {
-        font-size: 20px;
-    }
-
-    .eleven_one img {
-        width: 70%;
-    }
-
-    .eleven_one {
-        padding: 35px 20px;
-    }
-}
-
-/* Tablet and Desktop (Larger devices: 1024px and above) */
-@media screen and (max-width: 1024px) {
-    .ten h2 {
-        font-size: 45px;
-    }
-
-    .ten p {
-        font-size: 18px;
-    }
-
-    .eleven_one h2 {
-        font-size: 34px;
-    }
-
-    .eleven_two h4 {
-        font-size: 22px;
-    }
-
-    .eleven_one img {
-        width: 65%;
-    }
-
-    .eleven_one {
-        padding: 40px 25px;
-    }
-}
-
-/* Large Screens (1400px and above) */
-@media screen and (max-width: 1400px) {
-    .ten h2 {
-        font-size: 48px;
-    }
-
-    .ten p {
-        font-size: 18px;
-    }
-
-    .eleven_one h2 {
-        font-size: 36px;
-    }
-
-    .eleven_two h4 {
-        font-size: 24px;
-    }
-
-    .eleven_one img {
-        width: 60%;
-    }
-
-    .eleven_one {
-        padding: 40px 30px;
-    }
-}
